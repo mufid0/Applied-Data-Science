@@ -1,17 +1,20 @@
 # 🚀 Applied-Data-Science
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
-![NumPy](https://img.shields.io/badge/NumPy-Library-orange?style=for-the-badge)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightgrey?style=for-the-badge)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange?style=for-the-badge)
 
 ---
 
 ## 📌 Overview
 
-This repository contains a structured and practical guide to **NumPy**, covering concepts from **basic to intermediate level**. It is designed for students, beginners, and aspiring data scientists who want hands-on understanding of numerical computing in Python.
+This repository contains **well-structured, hands-on notebooks** covering core Data Science concepts using **NumPy and Pandas**. It is designed to take you from **basic to intermediate level** with a focus on **practical implementation using real-world datasets**.
 
 ---
 
-## 🚀 What You'll Learn
+## 🧠 What This Notebook Covers
+
+### 🔢 NumPy (Foundation Layer)
 
 * Array creation and manipulation
 * Indexing and slicing
@@ -19,29 +22,70 @@ This repository contains a structured and practical guide to **NumPy**, covering
 * Broadcasting
 * Random number generation
 * Aggregations and statistics
-* Sorting and filtering
 * Matrix operations
 * Basic linear algebra
+
+---
+
+### 📊 Pandas (Data Handling Layer)
+
+* Series and DataFrame creation
+* Reading real-world datasets (CSV)
+* Data exploration (`head`, `info`, `describe`)
+* Data selection (`loc`, `iloc`)
+* Filtering and conditional operations
+* Data cleaning (missing values)
+* Sorting and transformation
+* GroupBy operations (aggregations)
+* Merging datasets
+* Basic visualization
 
 ---
 
 ## 📂 Notebook Structure
 
 ```
-NumPy/
-│── numpy_basics.ipynb
-│── numpy_intermediate.ipynb
-│── mini_project.ipynb
+Applied-Data-Science/
+│── NumPy/
+│   └── numpy_mastery.ipynb
+│
+│── Pandas/
+│   └── pandas_mastery.ipynb
+│
+│── Combined/
+│   └── numpy_pandas_workflow.ipynb
+│
+│── README.md
 ```
+
+---
+
+## 🔄 Learning Flow
+
+```
+NumPy (Basics → Intermediate)
+        ↓
+Pandas (Data Handling & Analysis)
+        ↓
+Mini Project (Real Dataset)
+```
+
+---
+
+## 🚀 Real Dataset Usage
+
+The notebook includes working with real datasets (e.g., Titanic dataset) to:
+
+* Understand real-world data structure
+* Perform data cleaning
+* Extract meaningful insights
 
 ---
 
 ## 💻 Installation
 
-Install NumPy using pip:
-
 ```bash
-pip install numpy
+pip install numpy pandas matplotlib
 ```
 
 ---
@@ -50,41 +94,46 @@ pip install numpy
 
 ```python
 import numpy as np
+import pandas as pd
 
 arr = np.array([1, 2, 3, 4])
+df = pd.DataFrame({"Values": arr})
+
 print("Mean:", np.mean(arr))
-print("Squared:", arr ** 2)
+print(df.head())
 ```
 
 ---
 
-## 🎯 Use Cases
+## 🎯 Learning Outcomes
+
+By completing this repository, you will:
+
+* Build a strong foundation in numerical computing (NumPy)
+* Master data manipulation and analysis (Pandas)
+* Work with real-world datasets
+* Prepare for Machine Learning workflows
+
+---
+
+## 📊 Use Cases
 
 * Data Analysis
-* Machine Learning
-* Scientific Computing
-* Matrix Calculations
+* Exploratory Data Analysis (EDA)
+* Machine Learning Preparation
+* Real-world Data Processing
 
 ---
 
-## 📊 Why NumPy?
+## 🔮 Future Additions
 
-* Faster than Python lists
-* Memory efficient
-* Backbone of data science libraries like pandas
-
----
-
-## 🧠 Future Additions
-
-* Advanced NumPy topics
-* Performance optimization
-* Real-world datasets
+* Data Visualization (Matplotlib & Seaborn)
+* Advanced EDA Projects
+* Machine Learning (scikit-learn)
 
 ---
 
 ## 🤝 Contributing
 
-Feel free to fork this repository, open issues, or submit pull requests.
+Contributions are welcome! Feel free to fork this repository and submit improvements.
 
----
