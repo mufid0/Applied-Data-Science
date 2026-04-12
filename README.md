@@ -3,46 +3,65 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightgrey?style=for-the-badge)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange?style=for-the-badge)
+![EDA](https://img.shields.io/badge/EDA-Data%20Analysis-green?style=for-the-badge)
 
 ---
 
 ## 📌 Overview
 
-This repository contains **well-structured, hands-on notebooks** covering core Data Science concepts using **NumPy and Pandas**. It is designed to take you from **basic to intermediate level** with a focus on **practical implementation using real-world datasets**.
+This repository is a **comprehensive collection of Data Science fundamentals**, covering:
+
+* 🔢 NumPy (Numerical Computing)
+* 📊 Pandas (Data Analysis)
+* 🔍 Exploratory Data Analysis (EDA)
+* 🔗 Combined NumPy + Pandas Workflow
+
+The goal is to build a **strong foundation in data handling, analysis, and real-world problem solving** using structured and practical notebooks.
 
 ---
 
-## 🧠 What This Notebook Covers
+## 🧠 Contents
 
-### 🔢 NumPy (Foundation Layer)
+### 🔢 NumPy Notebook
 
 * Array creation and manipulation
 * Indexing and slicing
 * Mathematical operations
 * Broadcasting
-* Random number generation
 * Aggregations and statistics
-* Matrix operations
-* Basic linear algebra
+* Linear algebra basics
 
 ---
 
-### 📊 Pandas (Data Handling Layer)
+### 📊 Pandas Notebook
 
-* Series and DataFrame creation
-* Reading real-world datasets (CSV)
-* Data exploration (`head`, `info`, `describe`)
-* Data selection (`loc`, `iloc`)
-* Filtering and conditional operations
-* Data cleaning (missing values)
-* Sorting and transformation
-* GroupBy operations (aggregations)
+* Series and DataFrame operations
+* Reading real datasets (CSV)
+* Data cleaning and preprocessing
+* Filtering, sorting, transformation
+* GroupBy and aggregation
 * Merging datasets
-* Basic visualization
 
 ---
 
-## 📂 Notebook Structure
+### 🔗 Combined Workflow (NumPy + Pandas)
+
+**numpy_pandas_workflow.ipynb**
+*A hands-on notebook demonstrating how NumPy and Pandas work together in real-world data science pipelines, including data cleaning, transformation, feature engineering, and analysis using a real dataset.*
+
+---
+
+### 📊 Exploratory Data Analysis (EDA)
+
+* Data visualization using Matplotlib & Seaborn
+* Missing value analysis
+* Feature relationships
+* Correlation analysis
+* Insight generation from data
+
+---
+
+## 📂 Repository Structure
 
 ```
 Applied-Data-Science/
@@ -55,6 +74,9 @@ Applied-Data-Science/
 │── Combined/
 │   └── numpy_pandas_workflow.ipynb
 │
+│── EDA/
+│   └── titanic_eda.ipynb
+│
 │── README.md
 ```
 
@@ -63,56 +85,38 @@ Applied-Data-Science/
 ## 🔄 Learning Flow
 
 ```
-NumPy (Basics → Intermediate)
-        ↓
-Pandas (Data Handling & Analysis)
-        ↓
-Mini Project (Real Dataset)
+NumPy → Pandas → Combined Workflow → EDA → Machine Learning
 ```
 
 ---
 
-## 🚀 Real Dataset Usage
+## 🚀 Key Features
 
-The notebook includes working with real datasets (e.g., Titanic dataset) to:
-
-* Understand real-world data structure
-* Perform data cleaning
-* Extract meaningful insights
+* ✔ Structured learning from basics to intermediate
+* ✔ Real-world dataset usage (Titanic)
+* ✔ End-to-end workflow demonstration
+* ✔ Feature engineering techniques
+* ✔ Insight-driven analysis
 
 ---
 
 ## 💻 Installation
 
 ```bash
-pip install numpy pandas matplotlib
-```
-
----
-
-## 🧪 Example
-
-```python
-import numpy as np
-import pandas as pd
-
-arr = np.array([1, 2, 3, 4])
-df = pd.DataFrame({"Values": arr})
-
-print("Mean:", np.mean(arr))
-print(df.head())
+pip install numpy pandas matplotlib seaborn scikit-learn
 ```
 
 ---
 
 ## 🎯 Learning Outcomes
 
-By completing this repository, you will:
+By exploring this repository, you will:
 
-* Build a strong foundation in numerical computing (NumPy)
-* Master data manipulation and analysis (Pandas)
-* Work with real-world datasets
-* Prepare for Machine Learning workflows
+* Build strong fundamentals in data science
+* Learn to clean and preprocess real-world data
+* Perform exploratory data analysis
+* Combine multiple libraries effectively
+* Prepare data for machine learning models
 
 ---
 
@@ -127,9 +131,10 @@ By completing this repository, you will:
 
 ## 🔮 Future Additions
 
-* Data Visualization (Matplotlib & Seaborn)
-* Advanced EDA Projects
-* Machine Learning (scikit-learn)
+* Machine Learning models (classification & regression)
+* Advanced EDA projects
+* Feature engineering techniques
+* End-to-end ML pipelines
 
 ---
 
@@ -137,3 +142,10 @@ By completing this repository, you will:
 
 Contributions are welcome! Feel free to fork this repository and submit improvements.
 
+---
+
+## ⭐ Support
+
+If you find this repository helpful, consider giving it a ⭐ on GitHub!
+
+---
