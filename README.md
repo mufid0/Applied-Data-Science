@@ -127,4 +127,10 @@ By working through this repository, you will:
 
 Contributions are welcome! Feel free to fork and improve.
 
+---
 
+## ⭐ Support
+
+If you find this repository helpful, consider giving it a ⭐!
+
+---
