@@ -5,73 +5,19 @@
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange?style=for-the-badge)
 ![EDA](https://img.shields.io/badge/EDA-Data%20Analysis-green?style=for-the-badge)
 ![Feature Engineering](https://img.shields.io/badge/Feature%20Engineering-ML%20Prep-yellow?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Models-red?style=for-the-badge)
 
 ---
 
 ## 📌 Overview
 
-This repository is a **structured journey into Applied Data Science**, covering everything from data manipulation to feature engineering using real-world datasets.
+This repository presents a **complete Applied Data Science workflow**, starting from basic numerical operations to building machine learning models.
 
-It focuses on building **practical, industry-relevant skills** in:
-
-* Data handling
-* Data analysis
-* Feature engineering
-* Preparing data for machine learning
+It is designed to demonstrate **practical, real-world data science skills** using structured notebooks and real datasets.
 
 ---
 
-## 🧠 Contents
-
-### 🔢 NumPy
-
-* Array creation and manipulation
-* Mathematical operations
-* Broadcasting
-* Aggregations and statistics
-
----
-
-### 📊 Pandas
-
-* DataFrame operations
-* Data cleaning and preprocessing
-* Filtering, sorting, transformation
-* GroupBy and aggregation
-
----
-
-### 🔗 Combined Workflow (NumPy + Pandas)
-
-**numpy_pandas_workflow.ipynb**
-
-* End-to-end data handling
-* Cleaning and preprocessing
-* Feature creation using both libraries
-
----
-
-### 📊 Exploratory Data Analysis (EDA)
-
-* Data visualization (Matplotlib & Seaborn)
-* Missing value analysis
-* Feature relationships
-* Correlation analysis
-* Insight generation
-
----
-
-### ⚙️ Feature Engineering 🔥
-
-* Creating new features (FamilySize, IsAlone)
-* Binning (Age groups, Fare categories)
-* Log transformation of skewed data
-* Title extraction from names
-* Encoding categorical variables
-
----
-
-## 📂 Repository Structure
+## 🔗 Project Structure
 
 ```
 Applied-Data-Science/
@@ -80,12 +26,13 @@ Applied-Data-Science/
 │── Combined/
 │── EDA/
 │── Feature-Engineering/
+│── Machine-Learning/
 │── README.md
 ```
 
 ---
 
-## 🔄 Learning Flow
+## 🧠 Learning Path
 
 ```
 NumPy → Pandas → Combined Workflow → EDA → Feature Engineering → Machine Learning
@@ -93,44 +40,107 @@ NumPy → Pandas → Combined Workflow → EDA → Feature Engineering → Machi
 
 ---
 
+## 🔢 NumPy
+
+* Array creation and manipulation
+* Mathematical operations
+* Broadcasting
+* Statistical functions
+
+📄 **Notebook:** `numpy_mastery.ipynb`
+
+---
+
+## 📊 Pandas
+
+* DataFrame operations
+* Data cleaning and preprocessing
+* Filtering and transformation
+* GroupBy and aggregation
+
+📄 **Notebook:** `pandas_mastery.ipynb`
+
+---
+
+## 🔗 Combined Workflow
+
+* Integration of NumPy and Pandas
+* Data preprocessing pipeline
+* Feature creation
+* Real dataset usage
+
+📄 **Notebook:** `numpy_pandas_workflow.ipynb`
+
+---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+* Data visualization
+* Missing value analysis
+* Correlation and relationships
+* Insight generation
+
+📄 **Notebook:** `titanic_eda.ipynb`
+
+---
+
+## ⚙️ Feature Engineering
+
+* Feature creation (FamilySize, IsAlone)
+* Binning and categorization
+* Log transformations
+* Title extraction
+* Encoding categorical variables
+
+📄 **Notebook:** `feature_engineering_titanic.ipynb`
+
+---
+
+## 🤖 Machine Learning
+
+* Data preparation for ML
+* Model training (Logistic Regression, Decision Tree, Random Forest)
+* Model evaluation (accuracy, confusion matrix)
+* Model comparison
+
+📄 **Notebook:** `titanic_ml_pipeline.ipynb`
+
+---
+
 ## 🚀 Key Highlights
 
-* ✔ Structured learning approach
+* ✔ End-to-end data science workflow
 * ✔ Real-world dataset (Titanic)
-* ✔ End-to-end workflow demonstration
-* ✔ Clean and professional notebooks
-* ✔ Focus on practical implementation
+* ✔ Clean, structured notebooks
+* ✔ Feature engineering techniques
+* ✔ Machine learning pipeline implementation
 
 ---
 
 ## 🎯 Learning Outcomes
 
-By working through this repository, you will:
+By exploring this repository, you will:
 
 * Understand data manipulation using NumPy & Pandas
 * Perform exploratory data analysis (EDA)
 * Create meaningful features from raw data
-* Prepare datasets for machine learning models
+* Build and evaluate machine learning models
+* Work on real-world datasets
 
 ---
 
-## 🔮 Next Steps
+## 🔮 Future Enhancements
 
-* 🤖 Machine Learning models
-* 📈 Model evaluation techniques
-* 📊 Advanced visualizations
-* 🚀 End-to-end ML projects
+* Model evaluation & optimization
+* Hyperparameter tuning
+* Advanced ML models
+* End-to-end projects with new datasets
 
----
-
-## 🤝 Contributing
-
-Contributions are welcome! Feel free to fork and improve.
 
 ---
 
 ## ⭐ Support
 
-If you find this repository helpful, consider giving it a ⭐!
+If you found this repository helpful, consider giving it a ⭐!
 
 ---
