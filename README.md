@@ -3,8 +3,6 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightgrey?style=for-the-badge)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange?style=for-the-badge)
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blueviolet?style=for-the-badge)
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-teal?style=for-the-badge)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML%20Library-red?style=for-the-badge)
 ![EDA](https://img.shields.io/badge/EDA-Exploratory%20Analysis-green?style=for-the-badge)
 ![Feature Engineering](https://img.shields.io/badge/Feature%20Engineering-Data%20Prep-yellow?style=for-the-badge)
