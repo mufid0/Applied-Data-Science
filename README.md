@@ -1,64 +1,63 @@
-# 🚀 Applied-Data-Science
+# 🚀 Applied Data Science
 
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightgrey?style=for-the-badge)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange?style=for-the-badge)
 ![EDA](https://img.shields.io/badge/EDA-Data%20Analysis-green?style=for-the-badge)
-![Feature Engineering](https://img.shields.io/badge/Feature%20Engineering-ML%20Prep-yellow?style=for-the-badge)
 ![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Models-red?style=for-the-badge)
-![Model Evaluation](https://img.shields.io/badge/Model%20Evaluation-Optimization-purple?style=for-the-badge)
+![Projects](https://img.shields.io/badge/Projects-Real%20World-purple?style=for-the-badge)
 
 ---
 
 ## 📌 Overview
 
-This repository presents a **complete Applied Data Science workflow**, covering the journey from data manipulation to building and optimizing machine learning models.
+This repository represents a structured journey through **Applied Data Science**, covering the complete pipeline from data manipulation to real-world machine learning projects.
 
-It focuses on **practical implementation, structured learning, and real-world datasets** to build strong data science fundamentals.
-
----
-
-## 🔗 Repository Structure
-
-```id="ads_final_struct"
-Applied-Data-Science/
-│── NumPy/
-│── Pandas/
-│── Combined/
-│── EDA/
-│── Feature-Engineering/
-│── Machine-Learning/
-│── Model-Evaluation/
-│── README.md
-```
+It emphasizes **practical implementation, reproducibility, and business-oriented insights**, following industry-standard workflows.
 
 ---
 
 ## 🧠 Learning Path
 
-```id="ads_final_path"
-NumPy → Pandas → Combined Workflow → EDA → Feature Engineering → Machine Learning → Model Evaluation
+```text id="ads_master_path"
+NumPy → Pandas → Data Cleaning → EDA → Feature Engineering → Machine Learning → Model Evaluation → Projects
+```
+
+---
+
+## 📂 Repository Structure
+
+```text id="ads_master_struct"
+Applied-Data-Science/
+│
+├── NumPy/
+├── Pandas/
+├── Combined/
+├── EDA/
+├── Feature-Engineering/
+├── Machine-Learning/
+├── Model-Evaluation/
+├── Projects/
+│   └── Customer-Churn/
+│
+└── README.md
 ```
 
 ---
 
 ## 🔢 NumPy
 
-* Array operations and numerical computing
-* Broadcasting and vectorization
-* Statistical functions
-
-📄 `numpy_mastery.ipynb`
+* Numerical computing and array operations
+* Vectorization and broadcasting
+* Statistical computations
 
 ---
 
 ## 📊 Pandas
 
-* DataFrame operations
+* DataFrame manipulation
 * Data cleaning and preprocessing
 * Data transformation and aggregation
-
-📄 `pandas_mastery.ipynb`
 
 ---
 
@@ -67,83 +66,95 @@ NumPy → Pandas → Combined Workflow → EDA → Feature Engineering → Machi
 * Integration of NumPy and Pandas
 * End-to-end preprocessing pipeline
 
-📄 `numpy_pandas_workflow.ipynb`
-
 ---
 
 ## 📊 Exploratory Data Analysis (EDA)
 
-* Data visualization and insights
-* Missing value analysis
-* Feature relationships
-
-📄 `titanic_eda.ipynb`
+* Data visualization and pattern discovery
+* Missing value and distribution analysis
+* Feature relationship exploration
 
 ---
 
 ## ⚙️ Feature Engineering
 
 * Feature creation and transformation
-* Binning and categorization
-* Encoding categorical variables
-
-📄 `feature_engineering_titanic.ipynb`
+* Encoding and categorization
+* Data preparation for modeling
 
 ---
 
 ## 🤖 Machine Learning
 
-* Model training (Logistic Regression, Decision Tree, Random Forest)
-* Prediction and evaluation
-
-📄 `titanic_ml_pipeline.ipynb`
+* Model training and prediction
+* Classification algorithms
+* Model comparison
 
 ---
 
-## 📈 Model Evaluation & Optimization 🔥
+## 📈 Model Evaluation & Optimization
 
 * Accuracy, Precision, Recall, F1 Score
-* Confusion Matrix
-* Cross-Validation
-* Hyperparameter Tuning (GridSearchCV)
-
-📄 `model_evaluation_titanic.ipynb`
+* Confusion Matrix and ROC Curve
+* Cross-validation
+* Hyperparameter tuning
 
 ---
 
-## 🚀 Key Highlights
+## 🚀 Projects
 
-* ✔ Complete end-to-end data science workflow
-* ✔ Real-world dataset (Titanic)
+### 📉 Customer Churn Prediction
+
+A complete end-to-end machine learning project focused on predicting customer churn and identifying key drivers of customer behavior.
+
+**Highlights:**
+
+* Structured EDA and feature engineering
+* Predictive modeling using multiple algorithms
+* Evaluation with robust performance metrics
+* Business-driven insights for customer retention
+
+---
+
+## 🎯 Key Highlights
+
+* ✔ End-to-end data science workflow
+* ✔ Real-world datasets and problem-solving
 * ✔ Clean, structured, and modular notebooks
-* ✔ Focus on both fundamentals and applied techniques
-* ✔ Model building + evaluation + optimization
+* ✔ Focus on both technical and business insights
+* ✔ Reproducible and scalable approach
 
 ---
 
-## 🎯 Learning Outcomes
+## 🧠 Skills Demonstrated
 
-By exploring this repository, you will:
-
-* Master data manipulation using NumPy & Pandas
-* Perform effective exploratory data analysis
-* Engineer meaningful features
-* Build and evaluate machine learning models
-* Optimize models for better performance
+* Data preprocessing and cleaning
+* Exploratory data analysis
+* Feature engineering
+* Machine learning modeling
+* Model evaluation and optimization
+* Real-world problem solving
 
 ---
 
 ## 🔮 Future Enhancements
 
-* Advanced ML models (XGBoost, LightGBM)
-* Deep Learning basics
-* Deployment (Flask / Streamlit)
-* More real-world datasets
+* Advanced machine learning models (XGBoost, LightGBM)
+* Deep learning fundamentals
+* Model deployment (Streamlit / APIs)
+* Additional real-world projects
 
 ---
 
 ## ⭐ Support
 
-If you find this repository helpful, consider giving it a ⭐!
+If you find this repository useful, consider giving it a ⭐!
+
+---
+
+## 👨‍💻 Author
+
+**Mufid Panhalkar**
+Aspiring Data Scientist | Computer Engineering Student
 
 ---
