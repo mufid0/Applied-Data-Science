@@ -3,9 +3,15 @@
 ![Python](https://img.shields.io/badge/Python-3.x-blue?style=for-the-badge)
 ![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-lightgrey?style=for-the-badge)
 ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-orange?style=for-the-badge)
-![EDA](https://img.shields.io/badge/EDA-Data%20Analysis-green?style=for-the-badge)
-![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Models-red?style=for-the-badge)
-![Projects](https://img.shields.io/badge/Projects-Real%20World-purple?style=for-the-badge)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blueviolet?style=for-the-badge)
+![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-teal?style=for-the-badge)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML%20Library-red?style=for-the-badge)
+![EDA](https://img.shields.io/badge/EDA-Exploratory%20Analysis-green?style=for-the-badge)
+![Feature Engineering](https://img.shields.io/badge/Feature%20Engineering-Data%20Prep-yellow?style=for-the-badge)
+![Machine Learning](https://img.shields.io/badge/Machine%20Learning-Models-critical?style=for-the-badge)
+![Model Evaluation](https://img.shields.io/badge/Model%20Evaluation-Metrics-purple?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![Maintained](https://img.shields.io/badge/Maintained-Yes-brightgreen?style=for-the-badge)
 
 ---
 
@@ -19,7 +25,7 @@ It emphasizes **practical implementation, reproducibility, and business-oriented
 
 ## 🧠 Learning Path
 
-```text id="ads_master_path"
+```text id="ads_master_path_v2"
 NumPy → Pandas → Data Cleaning → EDA → Feature Engineering → Machine Learning → Model Evaluation → Projects
 ```
 
@@ -27,7 +33,7 @@ NumPy → Pandas → Data Cleaning → EDA → Feature Engineering → Machine L
 
 ## 📂 Repository Structure
 
-```text id="ads_master_struct"
+```text id="ads_master_struct_v2"
 Applied-Data-Science/
 │
 ├── NumPy/
