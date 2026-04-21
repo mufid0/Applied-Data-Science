@@ -2,86 +2,93 @@
 
 ## 📌 Overview
 
-This project presents a comprehensive end-to-end data science solution for analyzing and predicting customer churn. It combines exploratory data analysis, feature engineering, and machine learning to identify key drivers of churn and build predictive models that support data-driven retention strategies.
-
-The objective is not only to predict churn but also to generate actionable insights that can help businesses reduce customer attrition and improve long-term value.
+This project builds an end-to-end machine learning pipeline to analyze and predict customer churn.
+It focuses on identifying key behavioral and financial factors that influence customer attrition and provides insights to support retention strategies.
 
 ---
 
 ## 🎯 Objectives
 
-* Analyze customer behavior and identify churn patterns
-* Engineer meaningful features to enhance predictive power
-* Build and evaluate machine learning models
-* Provide insights to support retention strategies
+* Understand customer behavior and churn patterns
+* Engineer meaningful features for predictive modeling
+* Train and evaluate machine learning models
+* Identify key drivers behind customer churn
 
 ---
 
-## 🧠 Project Structure
+## 📂 Project Structure
 
-```text
+```text id="cc_struct"
 Customer-Churn/
 │
-├── churn_analysis.ipynb      # Data exploration and feature engineering
-├── churn_modeling.ipynb     # Model training, evaluation, and optimization
-├── processed_churn.csv      # Cleaned and engineered dataset
-├── README.md
+├── churn_analysis.ipynb
+├── churn_modeling.ipynb
+└── README.md
 ```
 
 ---
 
-## 📊 Dataset Description
+## 📊 Dataset
 
-The dataset contains customer-level information including:
+The dataset used in this project is publicly available:
 
-* Demographics (gender, senior citizen status)
-* Account details (tenure, contract type, payment method)
-* Service usage (internet service, add-ons)
-* Financial metrics (monthly and total charges)
+👉 https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+
+It contains customer-level information including:
+
+* Demographics
+* Account details (tenure, contract type)
+* Services subscribed
+* Billing information
 * Target variable: **Churn (Yes/No)**
+
+---
+
+## 📓 Notebooks
+
+| Notebook           | Description                                                       |
+| ------------------ | ----------------------------------------------------------------- |
+| **Churn Analysis** | Data cleaning, exploratory data analysis, and feature engineering |
+| **Churn Modeling** | Model training, evaluation, and optimization                      |
 
 ---
 
 ## 🔍 Exploratory Data Analysis
 
-* Analyzed distribution of churn across different customer segments
-* Identified patterns in tenure, contract type, and service usage
-* Evaluated class imbalance and data quality
-* Visualized relationships between key variables and churn
+* Analyzed churn distribution across customer segments
+* Identified patterns in tenure, contract type, and services
+* Evaluated data quality and missing values
+* Visualized feature relationships
 
 ---
 
 ## ⚙️ Feature Engineering
 
-Key features created to improve model performance:
-
-* **Tenure Groups**: Segmented customer lifespan
-* **Average Monthly Spend**: Spending behavior indicator
-* **Customer Loyalty Flag**: Long-term vs short-term users
-* **High Value Customer**: Based on charge distribution
-
-These features help capture behavioral and financial characteristics beyond raw data.
+* Created tenure-based customer segments
+* Derived spending behavior metrics
+* Identified high-value and long-term customers
+* Transformed categorical variables for modeling
 
 ---
 
-## 🤖 Machine Learning Models
+## 🤖 Machine Learning
 
-Implemented and compared multiple models:
+Models implemented:
 
 * Logistic Regression
 * Random Forest
 
-Key steps:
+Workflow:
 
+* Data preprocessing and encoding
 * Train-test split with stratification
-* Feature encoding and scaling
 * Model training and prediction
 
 ---
 
 ## 📈 Model Evaluation
 
-Models were evaluated using multiple performance metrics:
+Models were evaluated using:
 
 * Accuracy
 * Precision
@@ -89,7 +96,7 @@ Models were evaluated using multiple performance metrics:
 * F1 Score
 * ROC-AUC
 
-Additional evaluation:
+Additional techniques:
 
 * Confusion Matrix
 * ROC Curve
@@ -97,48 +104,45 @@ Additional evaluation:
 
 ---
 
-## ⚙️ Model Optimization
+## ⚙️ Optimization
 
 * Hyperparameter tuning using GridSearchCV
-* Improved generalization and performance
-* Selected best-performing model based on F1 score and ROC-AUC
+* Improved model performance and generalization
 
 ---
 
 ## 📊 Key Insights
 
-* Customers with shorter tenure have higher churn probability
-* Month-to-month contracts are strongly associated with churn
-* Higher monthly charges increase churn likelihood
-* Long-term and high-value customers show lower churn rates
+* Customers with shorter tenure are more likely to churn
+* Month-to-month contracts show higher churn rates
+* Higher monthly charges increase churn probability
+* Long-term customers are less likely to churn
 
 ---
 
 ## 🚀 Outcome
 
-* Developed a predictive model capable of identifying high-risk customers
-* Generated actionable insights for retention strategies
-* Built a structured and reproducible data science workflow
+* Built a reliable churn prediction model
+* Identified key factors influencing churn
+* Developed a structured and reproducible ML pipeline
 
 ---
 
 ## 🧠 Skills Demonstrated
 
-* Data preprocessing and cleaning
+* Data cleaning and preprocessing
 * Exploratory data analysis
 * Feature engineering
 * Machine learning modeling
 * Model evaluation and optimization
-* Business-oriented data interpretation
 
 ---
 
 ## 🔮 Future Improvements
 
-* Incorporate advanced models (Gradient Boosting, XGBoost)
-* Perform feature selection and dimensionality reduction
-* Deploy model for real-time predictions
-* Integrate dashboard for business users
+* Advanced models (XGBoost, Gradient Boosting)
+* Model deployment (Streamlit)
+* Real-time prediction system
 
 ---
 
@@ -148,4 +152,3 @@ Additional evaluation:
 Aspiring Data Scientist | Computer Engineering Student
 
 ---
-
