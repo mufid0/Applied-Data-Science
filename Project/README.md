@@ -2,9 +2,9 @@
 
 ## 📌 Overview
 
-This section showcases applied data science projects focused on solving real-world problems using structured workflows and machine learning techniques.
+This repository showcases applied data science projects focused on solving real-world problems using structured workflows and machine learning techniques.
 
-Each project demonstrates the ability to move from raw data to actionable insights and predictive modeling, following industry-standard practices.
+Each project demonstrates the ability to transform raw data into actionable insights and build predictive models using industry-standard practices.
 
 ---
 
@@ -37,16 +37,19 @@ All projects follow a consistent and reproducible pipeline:
 
 ## 📂 Project Structure
 
-```text id="proj_struct"
+```text
 Projects/
 │
 ├── Customer-Churn/
 │   ├── churn_analysis.ipynb
 │   ├── churn_modeling.ipynb
-│   ├── processed_churn.csv
 │   └── README.md
 │
-└── (Upcoming Projects)
+├── Titanic-Survival-Prediction/
+│   ├── notebook.ipynb
+│   └── README.md
+│
+└── README.md
 ```
 
 ---
@@ -60,10 +63,24 @@ A complete end-to-end machine learning project focused on predicting customer ch
 **Key Highlights:**
 
 * Exploratory data analysis of customer behavior
-* Advanced feature engineering
+* Feature engineering and data preprocessing
 * Machine learning model development
 * Evaluation using multiple performance metrics
 * Business-driven insights for retention strategies
+
+---
+
+### 🚢 Titanic Survival Prediction
+
+A classification project based on the Titanic: Machine Learning from Disaster, focused on predicting passenger survival using structured data.
+
+**Key Highlights:**
+
+* Data cleaning and handling missing values
+* Feature engineering (Title extraction, FamilySize, IsAlone, binning)
+* Categorical encoding and preprocessing
+* Model training using XGBoost
+* Kaggle-ready submission pipeline
 
 ---
 
@@ -72,7 +89,7 @@ A complete end-to-end machine learning project focused on predicting customer ch
 * Data preprocessing and cleaning
 * Exploratory data analysis (EDA)
 * Feature engineering
-* Machine learning modeling
+* Machine learning modeling (classification)
 * Model evaluation and optimization
 * Structured and reproducible workflows
 
@@ -82,16 +99,16 @@ A complete end-to-end machine learning project focused on predicting customer ch
 
 Upcoming additions will include:
 
-* Predictive modeling on different domains
 * Advanced machine learning techniques
+* Cross-validation and hyperparameter tuning
 * Real-world business case studies
-* End-to-end deployable solutions
+* End-to-end deployable ML solutions
 
 ---
 
 ## 🧠 Goal
 
-The goal of this section is to demonstrate **practical data science capabilities**, focusing on clarity, structure, and real-world impact rather than isolated techniques.
+The goal of this repository is to demonstrate **practical data science capabilities**, focusing on clarity, structured problem-solving, and real-world impact.
 
 ---
 
@@ -102,3 +119,4 @@ Aspiring Data Scientist | Computer Engineering Student
 
 ---
 
+⭐ If you find this repository useful, consider giving it a star!
