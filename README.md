@@ -159,4 +159,6 @@ If you find this repository useful, consider giving it a ⭐!
 ## 👨‍💻 Author
 
 **Mufid Panhalkar**
-Aspiring Data Scientist | Computer Engineering Student
+Computer Engineering Student
+
+---
